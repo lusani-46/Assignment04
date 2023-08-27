@@ -1,0 +1,250 @@
+.container {
+  width: 100%;
+  max-width: 20rem; 
+  display: block; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color: white;
+
+}
+
+/* CSS for the AddEmployee component */
+
+.form-container {
+  width: 100%;
+  max-width: 20rem;
+  margin-top: 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.form-field {
+  margin-bottom: 1.25rem;
+}
+
+.input {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: #4a5568;
+  line-height: 1.25;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-button {
+  background-color: #68d391;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.add-button:hover {
+  background-color: #48bb78;
+}
+
+.cancel-link {
+  text-align: center;
+  background-color: #f7fafc;
+  color: #6b7280;
+  padding: 1.25rem;
+}
+/* CSS for the Editemployee component */
+
+.form-container {
+  width: 100%;
+  max-width: 20rem;
+  margin-top: 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.form-field {
+  margin-bottom: 1.25rem;
+}
+
+.input {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: #4a5568;
+  line-height: 1.25;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.input:focus {
+  border-color: #48bb78;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-button {
+  background-color: #68d391;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.edit-button:hover {
+  background-color: #48bb78;
+}
+
+.cancel-link {
+  text-align: center;
+  background-color: #f7fafc;
+  color: #6b7280;
+  padding: 1.25rem;
+}
+/* CSS for the Memberlist component */
+
+.member-card {
+  display: flex;
+  align-items: center;
+  background-color: #edf2f7;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.member-details {
+  flex: 1;
+  padding: 1rem;
+}
+
+.member-name {
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.member-designation {
+  color: #4a5568;
+}
+
+.member-location {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+  color: #4a5568;
+}
+
+.member-actions {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #68d391;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #48bb78;
+}
+
+.no-data-message {
+  text-align: center;
+  background-color: #edf2f7;
+  color: #a0aec0;
+  padding: 1rem;
+}
+/* CSS for the Heading component */
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.heading-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.heading-left {
+  flex-grow: 1;
+  padding: 0.5rem 0;
+}
+
+.heading-text {
+  font-weight: bold;
+  color: #2d3748;
+  font-size: 1.5rem;
+}
+
+.heading-right {
+  flex-grow: 1;
+  padding: 0.5rem 0;
+  text-align: right;
+}
+
+.add-button {
+  background-color: #68d391;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.add-button:hover {
+  background-color: #48bb78;
+}
+
+.add-button-text {
+  margin-left: 0.5rem;
+}
