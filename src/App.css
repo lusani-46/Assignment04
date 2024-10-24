@@ -6,17 +6,31 @@
   margin-left: auto;
   margin-top: 20px;
   background-color: white;
-
 }
 
 /* CSS for the AddEmployee component */
 
-.form-container {
+/* .form-container {
   width: 100%;
   max-width: 20rem;
   margin-top: 6rem;
   margin-bottom: 2.5rem;
+} */
+
+.form-container {
+  width: 100%;
+  max-width: 20rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
+
 
 .form-field {
   margin-bottom: 1.25rem;
